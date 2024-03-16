@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form </title>
+    </head>
+    <body>
+        <form action="signnin.php" method="post">
+            <table border="1">
+                <tr>
+                    <td colspan="2"bgcolor="green">
+                        <h1>Registration form</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>enter name</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>enter Password</td>
+                    <td><input type="password" name="password" /></td>
+                </tr>
+                <tr>
+                    <td>enter address</td>
+                    <td><input type="email" name="email" /></td>
+                </tr>
+                
+                
+                <tr>
+                    <td>Select Game</td>
+                    <td>
+                        <p> <input id="hockey" type="checkbox" name="select_game" />
+                            <label for="hockey">Hockey</label>
+                        </p>
+                        <p> <input id="Football" type="checkbox" name="select_game" />
+                            <label for="Football">Football</label>
+                        </p>
+                        <p> <input id="Badminton" type="checkbox" name="select_game" />
+                            <label for="Badminton">Badminton</label>
+                        </p>
+                        <p> <input id="cricket" type="checkbox" name="select_game" />
+                            <label for="cricket">Cricket</label>
+                        </p>
+                        <p> <input id="volleyball" type="checkbox" name="select_game" />
+                            <label for="volleyball">Volleyball</label>
+                        </p>
+                        <p>
+                            <input id="liên minh huyền thoại" type="checkbox" name="select_game"/>
+                            <label for="liên minh huyền thoại">Liên Minh Huyền Thoại</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input id="male" type="radio" name="gender" />
+                        <label for="male">male</label>
+                        <input id="female" type="radio" name="gender" />
+                        <label for="female">female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>
+                        <select name="age">
+                              <option value="18">18</option>  
+                              <option value="19">19</option>  
+                              <option value="20">20</option> 
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Avatar</td>
+                    <td>
+                        <input type="file" name="avatar"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="yellow" colspan="2">
+                        <input type="button" value="Click me"/>
+                        <input type="reset" value="Reset"/>
+                        <input type="submit" value="submit"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+     </body>
+</html>
