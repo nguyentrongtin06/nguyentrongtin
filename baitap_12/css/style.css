@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+i {
+    color: green;
+}
+
+i {
+    color: red;
+}
+
+p {
+    color: pink;
+}
+
+p b {
+    color: chartreuse !important;
+}
+
+p b {
+    color: cyan;
+}
+
+li>a {
+    color: chartreuse;
+}
+
+#decuong {
+    color: royalblue;
+    font-size: larger;
+}
+
+.noidung {
+    color: blueviolet;
+    font-size: small;
+}
+.name{
+    color: coral;
+    font-size: small;
+}

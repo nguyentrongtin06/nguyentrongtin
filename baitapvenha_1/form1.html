@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form 1</title>
+</head>
+<body>
+    <h1>Trọng Tín</h1>
+    <form action="signnin.php" method="post">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>
+                        <font  face="Times New Roman" size="5">THÔN TIN ĐĂNG NHẬP</font ><br />
+                    </td>           
+                </tr>
+               <tr>
+                <td>
+                    <labe>Email:</labe>
+                    <input type="text" name="Email"  required/></td>
+               </tr>
+               <tr>
+                <td>
+                    <label >Mật Khẩu:</label>
+                    <input type="text" name="password" required/></td>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label> Nhập lại mật khẩu: </label>
+                    <input type="text" name="password" required/></td>
+                </td>
+               </tr>
+               <td>
+                <font face="Times New Roman" size="5">THÔNG TIN CÁ NHÂN</font><br />
+               </td>
+               <tr>
+                <td>
+                    <label>*Họ Và Tên:</label>
+                    <input type="text" name="name" required /></td> 
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label> Phái:</label>
+                    <input id="Nam" type="radio" name="Phái" />
+                            <label for="Nam">Nam</label>
+                            <input id="Nữ" type="radio" name="Phái" />
+                            <label for="Nữ">Nữ</label>
+                </td>
+               </tr>
+               <tr>
+                <td>
+                    <label>Ngày Sinh:</label>
+                <input type="datetime-local">
+                </td>
+               </tr>
+                <td>
+                    <font face="Times New Roman" size="5"> ĐỊA CHỈ</font><br />
+                </td>
+                <tr>
+                    <td>
+                        <label>Quốc Gia:</label>
+                        <select>
+                            <option>Viet Nam</option>
+                           </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Tỉnh/Thành:</label>
+                        <select>
+                        <option>Tp.HCM</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Quận/Huyện:</label>
+                        <select>
+                            <option>Thu Duc</option>
+                           </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Địa Chỉ Nhà</label>
+                        <textarea name="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Xoá Form" required />
+                    </td>
+                </tr>
+            </thead>
+            </Table>
+        </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form 2</title>
+</head>
+<body>
+    <h1>Trọng Tín</h1>
+    <form action="signnin.php" method="post">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>
+                        <font  face="Times New Roman" size="5">Your Details</font ><br />
+                    </td>           
+                </tr>
+               <tr>
+                <td>
+                    <labe>Email:</labe>
+                    <input type="text" name="Email"  required/></td>
+               </tr>
+               <tr>
+                <td>
+                    <label >name:</label>
+                    <input type="text" name="name" required/></td>
+                </td>
+               </tr>
+               <td>
+                <font face="Times New Roman" size="5">Your Review</font><br />
+               </td>
+                <tr>
+                    <td>
+                        <label>How did you hear about us?</label>
+                        <select>
+                            <option>Google</option>
+                           </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <br> Would you visit again?</br>
+                        <input id="yes" type="radio" name="Would you visit again?" />
+                        <label for="yes">yes</label>
+                        <input id="No" type="radio" name="Would you visit again?" />
+                        <label for="No">No</label>
+                        <input id="maybe" type="radio" name="Would you visit again?" />
+                        <label for="maybe">maybe</label>
+                    </td>
+                   </tr>
+                <tr>
+                    <td>
+                        <br><label>comment:</label></br>
+                        <textarea name="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p> <input id="Sign me up for email updates" type="checkbox" name="Sign" />
+                            <label for="Sign..">Sign me up for email updates</label>
+                        </p>
+                    </td>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit" />
+                    </td>
+                </tr>
+            </thead>
+            </Table>
+        </form>
+</body>
+</html>
